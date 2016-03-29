@@ -6,17 +6,17 @@ This is the express wrapper for [oauth2-server](https://github.com/thomseddon/no
 
 ## Installation
 
-    $ npm install express-oauth-server
+    $ npm install @bcoe/express-oauth-server
 
 ## Quick Start
 
-The module provides two middlewares - one for granting tokens and another to authorise them. `express-oauth-server` and, consequently `oauth2-server`, expect the request body to be parsed already.
+The module provides two middlewares - one for granting tokens and another to authorise them. `@bcoe/express-oauth-server` and, consequently `oauth2-server`, expect the request body to be parsed already.
 The following example uses `body-parser` but you may opt for an alternative library.
 
 ```js
 var bodyparser = require('body-parser');
 var express = require('express');
-var OAuthServer = require('express-oauth-server');
+var OAuthServer = require('@bcoe/express-oauth-server');
 
 var app = express();
 
